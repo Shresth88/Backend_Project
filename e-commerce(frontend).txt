@@ -1,0 +1,28 @@
+npx create-react-app .
+npm i react-router-dom
+npm start --> After this u will able to see your react project running in ur browser --> next step is we have to remove the default project that is running on browser
+go to src folder-> then go to App.js (remove the whole header tag && remove import logo line also)-->
+now go to public folder -> then go to index.html --> Rename the title from React App to your project name(Like E-Commerce)
+now next step is create a folder in src folder-> name of the folder are (context(to context the API), Pages(to add the different pages in websites), Components --> add another folder in this(Assets{To add images},Navbar{Make another folder inside this with name Navbar.jsx} ))
+
+Next step is convert Navbar.jsx file to component file using "rafc" -> now create a css file for Navbar.jsx --> next step to import 
+css file to jsx
+ Next step to mount the Navbar componenet in App.js file by writing <Navbar/> inside div tag (u will get an option of Navbar which will suggest by vs code only while writing it : option will look like {Navbar component}=> when u click on it u will indirectly include Navbar)
+
+Now in assets folder which is inside src->components->assets  add the images and one js file which will include all data about the products
+
+
+if u want to add a stlye of text so first u have get href link from google font poppins and paste that link inside a index.html in public folder and then go to src folder in index.css and in index.css inside body section add with font-family:'poppins'
+In backend folder use first commmand npm init and than press enter till yes command came
+Now write another command npm install express
+now install json web token package  command-> npm install jsonwebtoken
+now add moongose package for mongodb support ->npm install mongoose
+after mongoose install muter-> npm install multer-> so that we can store the images in our backend folder that we will upload using our admin pannel 
+npm install cors -> add permission to our application to access the backend
+Run the server by passing a command ( node .\index.js)
+
+Now come to admin folder and give command (npm create vite@latest .) => Then select framework react and the select javascript
+now in same admin folder terminal give command npm install => it install all the dependencies
+we have make admin project using vite so to run this project we have to use (npm run dev)
+
+now u have to move to different part of admin section for which u have to install router dom package by command (npm install react-router-dom)
